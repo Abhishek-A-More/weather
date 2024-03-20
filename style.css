@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: black !important;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main weather container styling*/
+.card-container {
+    width: 400px;
+    background-image: url(./image/card-bg.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* temperature */
+.temp {
+    font-size: 40px;
+}
+
+/* weather data */
+.weather-text {
+    font-size: 18px;
+    margin-top: -10px !important;
+}
+
+.weather-icon {
+    font-size: 45px;
+
+}
+
+.inp input::placeholder {
+    color: black;
+}
+
+/* to hide */
+.hide {
+    display: none !important;
+}
+
+/* page not found */
+.error {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 51px;
+    margin: 3%;
+}

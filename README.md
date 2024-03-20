@@ -1,2 +1,4 @@
 # weather
-Weather information or alert  page using fetch api.  
+This is weather app page on basis of fetch api.
+<br> 
+Created with help of HTML,CSS,JS,BOOTSTRAP
